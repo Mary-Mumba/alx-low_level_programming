@@ -1,11 +1,9 @@
-#include <stdio.h>
-
+#include<stdio.h>
 /**
- * main - displays "Programming is like building a multilingual puzzle"
- * Needs to be folloewd by a new line
- * Should Return: ALWAYS 0
+ * main - Entry point
+ *
+ * Return: Always 0 (TASK DONE)
  */
-
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
