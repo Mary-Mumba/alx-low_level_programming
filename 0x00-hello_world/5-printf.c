@@ -1,8 +1,8 @@
 #include<stdio.h>
-
 /**
-* main prints "with proper grammar, but the outcome is a piece of art,"
-* Return: Always 0.
+* main - Entry point
+*0x00. C - Hello, World
+* Return: Always 0 (Success)
 */
 int main(void)
 {
