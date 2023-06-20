@@ -1,21 +1,18 @@
 #include <stdio.h>
-
 /**
- * main - Prints natural numbers below 1024 that are
- * multiplies of 3 or 5
+ * main - Lists all the natural numbers below 1024 (excluded)
+ *        that are multiples of 3 or 5.
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
-int n, e;
-
-for (n = 1; n < 1024; n++)
+int a, s = 0;
+for (a = 0; a < 1024; a++)
 {
-if ((n % 3) == 0 || (n % 5) == 0)
-e += n;
+if ((a % 3) == 0 || (a % 5) == 0)
+s += a;
 }
-printf("%d\n", n);
+printf("%d\n", s);
 return (0);
 }
