@@ -21,3 +21,4 @@ num2 = fnum;
 }
 printf("\n");
 return (0);
+}
